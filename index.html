@@ -1,0 +1,83 @@
+X!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Практичне завдання</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="container">
+ X                            <path d="M54.8097 32.75H51.9165V29.4643H46.1299V41.375H43.2367V27H46.1299V29.0536L48.1966 27H51.9165C52.7156 27 53.3906 27.2875 53.9417 27.8625C54.5204 28.4101 54.8097 29.081 54.8097 29.875V32.75Z" fill="black"/>
+                            <path d="M83.7278 41.375H80.8345V29.4643H72.9814V41.375H70.0881V29.4643H62.235V41.375H59.3417V27H62.235V29.0536L64.3016 27H70.0881C71.769 27 72.7196 27.6982 72.9401 29.0946L75.048 27H80.8345C81.6336 27 82.3087 27.2875 82.8598 27.8625C83.4385 28.4101 83.7278 29.081 83.7278 29.875V41.375Z" fill="black"/>
+                            <path d="M104 47.125C104 47.919 103.711 48.5899 103.132 49.1375C102.581 49.7125 101.906 50 101.107 50H89.1204L91.6003 47.5357H101.107V39.3214L99.0401 41.375H92.427C91.6279 41.375 90.939 41.1012 90.3603 40.5536C89.8092 39.9786 89.5337 39.294 89.5337 38.5V27H92.427V38.9107H101.107V27H104V47.125Z" fill="black"/>
+                        </svg>
+                      </a>
+                      <h1>Армія Дронів</h1>
+                      <button class="button button__header">Зробити внесок</button>
+                </div>
+                <img class="header__dron" src="./images/header_dron.png" alt="dron">
+            </div>
+          </header>
+ X              </div>
+            </section>
+            <section class="pay">
+              <h2>Зробити благодійний внесок</h2>
+              <div class="pay__form">
+                <form action="/">
+                    <div class="pay__fonds">
+                      <p>Оберіть фонд</p>
+                      <label>
+                        <input type="radio" name="foundation" value="SerhiiPrytulaFoundation">
+                        <span>Фонд Сергія Притули</span>
+                      </label>
+                      <label>
+                        <input type="radio" name="foundation" value="ComeBackAliveFoundation" checked>
+                        <span>Повернись живим</span>
+                      </label>
+                      <label>
+                        <input type="radio" name="foundation" value="NBUAccount">
+                        <span>Рахунок НБУ</span>
+                      </label>
+                        <label>
+                        <input type="radio" name="foundation" value="NBUAccount">
+                        <span>Фонд "Байрактар"</span>
+                      </label>
+                    </div>
+                    <div class="pay__card">
+                        <div class="pay__first-card-col">
+                            <label>
+                                Введіть номер картки*
+                                <input type="text" required name="cardNumber" placeholder="xxxx xxxx xxxx xxxx">
+                            </label>
+                            <div>
+                                <label>
+                                    Термін дії*
+                                    <input type="text" required name="cardExpire" placeholder="xx/xx">
+                                </label>
+                                <label>
+                                    CVV*
+                                    <input type="text" required name="cardCVV" placeholder="xxx">
+                                </label>
+                            </div>
+                        </div>
+                        <div class="pay__second-card-col">
+                            <label>
+                                Введіть ім'я на картці
+                                <input type="text" required name="cardOwner" placeholder="John Doe">
+                            </label>
+                            <button class="button button__bottom" type="submit">Підтвердити внесок</button>
+                        </div>
+                    </div>
+                  </form>
+              </div>
+            </section>
+          </main>
+          <footer>
+            <p>Створено як навчальний проєкт курсу "Знайомство з ІТ: тестдрайв професій" від Prometheus.</p>
+            <p>Svitlana Kuznietsova</p>
+          </footer>
+    </div>
+</body>
+</html>
